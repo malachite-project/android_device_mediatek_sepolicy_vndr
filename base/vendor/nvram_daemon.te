@@ -96,3 +96,6 @@ allow nvram_daemon metadata_file:dir search;
 
 # Allow nvram_daemon to search gsi_metadata
 allow nvram_daemon gsi_metadata_file:dir search;
+
+# Allow nvram_daemon to set vendor_mtk_radio_prop
+set_prop(nvram_daemon, vendor_mtk_radio_prop)
