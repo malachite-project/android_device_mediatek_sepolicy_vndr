@@ -833,3 +833,6 @@ vendor.dynamic_sensor. u:object_r:vendor_dynamic_sensor_prop:s0
 
 # iSE
 vendor.mtk.ise. u:object_r:vendor_mtk_ise_prop:s0
+# RIL
+ro.vendor.mtk_data_config u:object_r:vendor_mtk_radio_prop:s0
+ro.vendor.radio.max.multisim u:object_r:vendor_mtk_radio_prop:s0
