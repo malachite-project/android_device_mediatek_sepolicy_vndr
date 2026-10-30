@@ -11,7 +11,7 @@ allow mediaextractor vfat:file r_file_perms;
 
 allow mediaextractor mediaserver_service:service_manager find;
 
-allow mediaextractor platform_app:dir search;
-allow mediaextractor platform_app:file r_file_perms;
+allow mediaextractor platform_app_all:dir search;
+allow mediaextractor platform_app_all:file r_file_perms;
 
 hal_client_domain(mediaextractor, hal_omx)

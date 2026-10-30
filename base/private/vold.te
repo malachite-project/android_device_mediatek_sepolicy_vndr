@@ -4,7 +4,7 @@
 
 # Date : WK15.02
 # Purpose : fsck_msdos
-allow vold platform_app:fd use;
+allow vold platform_app_all:fd use;
 
 # Date : WK15.11
 allow vold mtd_device:dir search;

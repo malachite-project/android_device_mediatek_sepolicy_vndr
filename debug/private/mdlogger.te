@@ -13,7 +13,7 @@ binder_use(mdlogger)
 binder_service(mdlogger)
 
 # modem logger socket access
-allow mdlogger platform_app:unix_stream_socket connectto;
+allow mdlogger platform_app_all:unix_stream_socket connectto;
 allow mdlogger shell_exec:file rx_file_perms;
 allow mdlogger system_file:file x_file_perms;
 allow mdlogger zygote_exec:file r_file_perms;

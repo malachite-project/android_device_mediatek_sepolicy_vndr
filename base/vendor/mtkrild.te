@@ -76,7 +76,7 @@ allow mtkrild para_block_device:blk_file rw_file_perms;
 
 # Allow dir search, fd uses
 allow mtkrild block_device:dir search;
-allow mtkrild platform_app:fd use;
+allow mtkrild platform_app_all:fd use;
 allow mtkrild radio:fd use;
 
 # For MAL MFI

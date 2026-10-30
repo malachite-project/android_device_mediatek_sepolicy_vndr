@@ -31,8 +31,8 @@ allow thermalloadalgod kmsg_device:chr_file w_file_perms;
 # For /proc/[pid]/cgroup accessing
 allow thermalloadalgod proc:dir { search getattr };
 allow thermalloadalgod shell:dir search;
-allow thermalloadalgod platform_app:dir search;
-allow thermalloadalgod platform_app:file r_file_perms;
+allow thermalloadalgod platform_app_all:dir search;
+allow thermalloadalgod platform_app_all:file r_file_perms;
 allow thermalloadalgod priv_app:dir search;
 allow thermalloadalgod priv_app:file r_file_perms;
 allow thermalloadalgod system_app:dir search;
