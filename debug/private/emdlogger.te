@@ -15,7 +15,7 @@ allow emdlogger sdcard_type:dir create_dir_perms;
 allow emdlogger sdcard_type:file create_file_perms;
 
 # modem logger socket access
-allow emdlogger platform_app:unix_stream_socket connectto;
+allow emdlogger platform_app_all:unix_stream_socket connectto;
 allow emdlogger shell_exec:file rx_file_perms;
 allow emdlogger system_file:file x_file_perms;
 allow emdlogger zygote_exec:file rx_file_perms;

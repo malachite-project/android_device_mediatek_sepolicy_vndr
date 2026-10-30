@@ -146,8 +146,8 @@ allow aee_aedv debugfs_tracing:file rw_file_perms;
 # 01-01 00:05:17.720  3567  3567 W ps      : type=1400 audit(0.0:5192): avc:
 # denied { getattr } for path="/proc/3421" dev="proc" ino=78975 scontext=u:r:
 # aee_aedv:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=dir permissive=0
-allow aee_aedv platform_app:dir r_dir_perms;
-allow aee_aedv platform_app:file r_file_perms;
+allow aee_aedv platform_app_all:dir r_dir_perms;
+allow aee_aedv platform_app_all:file r_file_perms;
 
 # Purpose:
 # 01-01 00:05:17.750  3567  3567 W ps      : type=1400 audit(0.0:5193): avc:

@@ -29,7 +29,7 @@ allow camerapostalgo media_rw_data_file:file rw_file_perms;
 binder_use(camerapostalgo)
 binder_service(camerapostalgo)
 
-binder_call(camerapostalgo, platform_app)
+binder_call(camerapostalgo, platform_app_all)
 binder_call(camerapostalgo, surfaceflinger)
 
 get_prop(camerapostalgo, system_mtk_debug_bq_dump_prop)

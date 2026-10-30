@@ -19,7 +19,7 @@ allow netdiag storage_file:dir search;
 allow netdiag storage_file:lnk_file r_file_perms;
 allow netdiag mnt_user_file:dir search;
 allow netdiag mnt_user_file:lnk_file r_file_perms;
-allow netdiag platform_app:dir search;
+allow netdiag platform_app_all:dir search;
 allow netdiag untrusted_app:dir search;
 allow netdiag mnt_media_rw_file:dir search;
 allow netdiag vfat:dir create_dir_perms;

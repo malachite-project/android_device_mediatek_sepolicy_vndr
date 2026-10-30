@@ -27,7 +27,7 @@ allow installd vfat:dir search;
 # Date : WK15.02
 # Operation : SQC0
 # Purpose : ALPS01889518 (MTK MTBF)
-allow installd platform_app:fd use;
+allow installd platform_app_all:fd use;
 
 # Date : WK16.09
 # Operation : Migration

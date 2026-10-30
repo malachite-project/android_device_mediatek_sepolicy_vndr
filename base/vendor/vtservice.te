@@ -100,7 +100,7 @@ allow vtservice mtk_hal_videotelephony_hwservice:hwservice_manager find;
 allow vtservice soc_vt_svc_socket:sock_file write;
 allow vtservice soc_vt_tcv_socket:sock_file write;
 allow vtservice rild_oem_socket:sock_file write;
-allow vtservice platform_app:binder call;
+allow vtservice platform_app_all:binder call;
 allow vtservice system_server:binder call;
 allow vtservice sdcard_type:dir write;
 allow vtservice sdcard_type:dir add_name;
