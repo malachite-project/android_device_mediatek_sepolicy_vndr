@@ -17,7 +17,7 @@ allow netd self:capability { fsetid setuid setgid };
 # Date : WK14.34
 # Operation : Migration
 # Purpose: APP
-allow netd platform_app:fd use;
+allow netd platform_app_all:fd use;
 
 # Date : WK14.37
 # Operation : Migration
