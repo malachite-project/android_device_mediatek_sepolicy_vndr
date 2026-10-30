@@ -32,7 +32,7 @@ allow fpsgo_native mtk_hal_c2:process setsched;
 allow fpsgo_native hal_gnss_default:process setsched;
 allow fpsgo_native mtk_hal_power:process setsched;
 allow fpsgo_native netd:process setsched;
-allow fpsgo_native platform_app:process setsched;
+allow fpsgo_native platform_app_all:process setsched;
 allow fpsgo_native priv_app:process setsched;
 allow fpsgo_native radio:process setsched;
 allow fpsgo_native self:capability sys_nice;

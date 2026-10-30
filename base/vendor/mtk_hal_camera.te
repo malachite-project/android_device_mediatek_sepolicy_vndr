@@ -337,7 +337,7 @@ MTK_M4U_GZ_SEC_INIT
 };
 
 # Date: 2019/07/04
-binder_call(mtk_hal_camera, platform_app)
+binder_call(mtk_hal_camera, platform_app_all)
 
 # Date : 2020/09/03
 # Purpose: mtk MMQoS set camera max BW
