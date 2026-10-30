@@ -14,7 +14,7 @@ hal_server_domain(volte_clientapi_ua, hal_clientapi)
 
 # call into system_app process (callbacks)
 binder_call(volte_clientapi_ua, system_app)
-binder_call(volte_clientapi_ua, platform_app)
+binder_call(volte_clientapi_ua, platform_app_all)
 
 # Date : W18.43
 # Operation : IT

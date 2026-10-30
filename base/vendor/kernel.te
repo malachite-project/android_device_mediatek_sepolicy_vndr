@@ -60,7 +60,7 @@ allow kernel kernel:key { write search setattr };
 # Date : WK16.42
 # Operation: SQC
 # Purpose: Allow task of cpuset cgroup can migration to parent cgroup when cpus is NULL
-allow kernel platform_app:process setsched;
+allow kernel platform_app_all:process setsched;
 
 # Date : WK17.01
 # Operation: SQC
