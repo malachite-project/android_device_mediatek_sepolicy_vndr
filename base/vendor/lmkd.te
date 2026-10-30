@@ -15,7 +15,7 @@ dontaudit lmkd zygote:dir rw_dir_perms;
 #           for  pid=170 comm="lmkd"
 #           path=2F6465762F6173686D656D2F4469736361726461626C654D656D6F72794173686D656D416C6C6F6361746F72202864656C6574656429
 #           dev="tmpfs" ino=14475 scontext=u:r:lmkd:s0 tcontext=u:r:platform_app:s0 tclass=fd permissive=0
-dontaudit lmkd platform_app:fd use;
+dontaudit lmkd platform_app_all:fd use;
 
 # Data : 2018/05/25
 # Operation : Add for duraSpeed socket

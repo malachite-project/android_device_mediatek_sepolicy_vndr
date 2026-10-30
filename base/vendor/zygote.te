@@ -38,7 +38,7 @@ dontaudit zygote untrusted_app_all:process ptrace;
 # Date : WK14.43
 # Operation : SQC2
 # Purpose : found in FST Auto Test (ALPS01774709)
-allow zygote platform_app:fd use;
+allow zygote platform_app_all:fd use;
 
 # Date : WK14.46
 # Operation : SQC

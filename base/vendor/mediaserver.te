@@ -379,14 +379,14 @@ allow mediaserver vtservice:fd use;
 # Date : WK17.43
 # Operation : OMA DRM
 # Purpose : Allow mediaserver to read processname to pass OMA DRM permisson check
-allow mediaserver platform_app:dir search;
-allow mediaserver platform_app:file { read open };
+allow mediaserver platform_app_all:dir search;
+allow mediaserver platform_app_all:file { read open };
 
 # Date : WK17.47
 # Operation : SQC
 # Purpose : Allow mediaserver to read processname of DeskClock to pass OMA DRM permisson check
 allow mediaserver mediaprovider:dir search;
-allow mediaserver platform_app:file getattr;
+allow mediaserver platform_app_all:file getattr;
 allow mediaserver system_app:dir search;
 allow mediaserver system_app:file read;
 allow mediaserver system_app:file open;

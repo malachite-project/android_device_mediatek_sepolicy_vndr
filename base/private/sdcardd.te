@@ -4,7 +4,7 @@
 
 # Date : WK14.48
 # Purpose : unknown
-allow sdcardd platform_app:fd use;
+allow sdcardd platform_app_all:fd use;
 allow sdcardd untrusted_app:fd use;
 
 # Date : WK15.38

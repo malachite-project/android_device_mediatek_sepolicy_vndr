@@ -20,7 +20,7 @@ userdebug_or_eng(`
     add_hwservice(hal_dplanner, mtk_hal_dplanner_hwservice);
 
     #Allow platform app calls
-    allow mtk_hal_dplanner platform_app:binder { call transfer };
+    allow mtk_hal_dplanner platform_app_all:binder { call transfer };
 
     #Give permissions of dconfig
     domain_auto_trans(mtk_hal_dplanner, mtk_dconfig_exec, mtk_dconfig);
